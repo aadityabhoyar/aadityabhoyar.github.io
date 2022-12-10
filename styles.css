@@ -1,0 +1,79 @@
+@keyframes animationName {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+      /* transform: scale(0); */
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+      /* transform: scale(1); */
+    }
+  }
+
+#body
+{
+    animation-name: animationName;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    background-color: #09090A;
+    color: #FEFEFE;
+    scroll-behavior: smooth;
+    font-family: Space Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+     /* border: 3px solid green; */
+}
+
+#header
+{   
+    padding: 20%;
+    padding-top: 16rem;
+    align-items: center;
+}
+
+#fount
+{
+    animation-name: animationName;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+   color: #7F7F7F;
+   line-height: 1.5rem;
+}
+
+#nav 
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+mark {
+  background-color: #09090A;
+  color: rgb(255, 255, 255);
+}
+
+
+.clickable-box {
+    animation-name: animationName;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+    width: 80%;
+    height: 40%;
+    border: 2px solid #ffffff;
+    border-radius: 0.3rem;
+    align-items: center;
+    
+  }
+  
+  .box-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+  }
+
